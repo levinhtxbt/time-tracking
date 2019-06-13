@@ -1,0 +1,11 @@
+﻿<Application x:Class="TimeTracking.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TimeTracking"
+             StartupUri="Main.xaml">
+    <Application.Resources>
+         <BitmapImage x:Key="main-icon" UriSource="Images/main.ico"></BitmapImage>
+         <BitmapImage x:Key="main-icon-red-dot" UriSource="Images/main-tracking.ico"></BitmapImage>
+         <BitmapImage x:Key="angular" UriSource="Images/angular.png"></BitmapImage>
+    </Application.Resources>
+</Application>
